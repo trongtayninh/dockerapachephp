@@ -43,7 +43,8 @@ docker push phamphu232/php:7.3
 ```
 nano /etc/hosts
 127.0.0.1 mytest.local
-127.0.0.1 test82.local
+127.0.0.1 mytest82.local
+curl mytest.local:8080/index.php
 cd /var/www/dockerapachephp-main
  docker compose restart
 
