@@ -6,7 +6,7 @@
 ```
 docker compose up -d
 hoặc docker-compose up -d
-
+d
 ```
 
 ## Build images and push images to docker hub
