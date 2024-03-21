@@ -26,15 +26,3 @@ services:
       - ./php7.3/php-fpm.conf:/usr/local/etc/php-fpm.conf
       - ./php7.3/www.conf:/usr/local/etc/php-fpm.d/www.conf
     working_dir: /var/www
-    
-  php82:
-    image: trongtayninh/php:8.2
-    container_name: con_ap_php8.2
-    restart: unless-stopped
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - ./www:/var/www
-      - ./php8.2/php.ini:/usr/local/etc/php/php.ini
-      - ./php8.2/php-fpm.conf:/usr/local/etc/php-fpm.conf
-      - ./php8.2/www.conf:/usr/local/etc/php-fpm.d/www.conf
-    working_dir: /var/www    

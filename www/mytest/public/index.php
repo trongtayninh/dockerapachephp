@@ -1,3 +1,5 @@
 <?php
-phpinfo();
-echo "Ff";
+
+echo 'PHP version: ' . phpversion();
+
+echo "abc";
